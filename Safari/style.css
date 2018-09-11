@@ -63,38 +63,4 @@ a {
   padding-top: 1rem;
 }
 
-@media (min-width: 0) {
-  .site-grid-wrap.page-home {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .alpha.page-home {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-    /* order: 2; */
-  }
-  .beta.page-home {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-    /* order: 1; */
-  }
-}
-
-@media (min-width: 640px) {
-  .site-grid-wrap.page-home {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .alpha.page-home {
-    width: 36%;
-    order: 1;
-  }
-  .beta.page-home {
-    width: 64%;
-    order: 2;
-  }
-}
-
 /* Page Home end */
