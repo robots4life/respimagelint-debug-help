@@ -20,7 +20,14 @@
 			</div>
 		</div>
 	</main>
-
+	<script type="text/javascript">
+		window.addEventListener('resize', function () {
+			document.querySelectorAll('img[srcset]').forEach(function (img) {
+				img.src += '';
+				console.log('img src set');
+			});
+		});
+	</script>
 </body>
 
 </html>
